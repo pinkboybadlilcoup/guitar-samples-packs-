@@ -27,14 +27,16 @@ body{
 
 
 
-/* HERO */
+/* MAIN LANDING PAGE */
 
 .hero{
 
     min-height:100vh;
 
     display:flex;
+
     justify-content:center;
+
     align-items:center;
 
     text-align:center;
@@ -45,11 +47,11 @@ body{
     background:
 
     linear-gradient(
-    rgba(0,0,0,.65),
-    rgba(0,0,0,.92)
+    rgba(0,0,0,.55),
+    rgba(0,0,0,.85)
     ),
 
-    url("pinkboy-cover.jpg.jpg");
+    url("pinkboy-cover.jpg");
 
 
     background-size:cover;
@@ -64,7 +66,7 @@ body{
 
 .logo{
 
-    font-size:85px;
+    font-size:90px;
 
     font-weight:900;
 
@@ -78,39 +80,13 @@ body{
 
 .archive{
 
-    margin-top:15px;
+    margin-top:20px;
 
     font-size:18px;
 
-    letter-spacing:10px;
+    letter-spacing:12px;
 
-    color:#aaa;
-
-}
-
-
-
-.subtitle{
-
-    margin-top:45px;
-
-    font-size:28px;
-
-}
-
-
-
-.description{
-
-    max-width:650px;
-
-    margin:25px auto;
-
-    color:#aaa;
-
-    font-size:18px;
-
-    line-height:1.7;
+    color:#cfcfcf;
 
 }
 
@@ -118,21 +94,30 @@ body{
 
 button{
 
-    margin-top:30px;
 
-    padding:17px 50px;
+    margin-top:60px;
 
-    border:none;
+    padding:16px 55px;
 
-    border-radius:40px;
 
-    background:white;
+    border:1px solid white;
 
-    color:black;
+    border-radius:0;
 
-    font-size:18px;
+
+    background:transparent;
+
+    color:white;
+
+
+    font-size:16px;
+
+
+    letter-spacing:5px;
+
 
     cursor:pointer;
+
 
     transition:.3s;
 
@@ -142,23 +127,24 @@ button{
 
 button:hover{
 
-    transform:scale(1.06);
+    background:white;
 
-    background:#ddd;
+    color:black;
 
 }
 
 
 
-
-/* SAMPLE ARCHIVE */
+/* SAMPLE ARCHIVE SECTION */
 
 
 .packs{
 
+
     padding:90px 10%;
 
     text-align:center;
+
 
 }
 
@@ -166,15 +152,18 @@ button:hover{
 
 .packs h2{
 
+
     font-size:45px;
 
     margin-bottom:50px;
+
 
 }
 
 
 
 .container{
+
 
     display:flex;
 
@@ -184,25 +173,34 @@ button:hover{
 
     gap:35px;
 
+
 }
 
 
 
 .card{
 
+
     width:330px;
+
 
     background:#101010;
 
+
     padding:25px;
 
-    border-radius:18px;
+
+    border-radius:15px;
+
 
     text-align:left;
 
+
     border:1px solid #222;
 
+
     transition:.3s;
+
 
 }
 
@@ -220,13 +218,18 @@ button:hover{
 
 .cover{
 
+
     height:230px;
 
-    background:#1b1b1b;
 
-    border-radius:12px;
+    background:#1a1a1a;
+
+
+    border-radius:10px;
+
 
     margin-bottom:25px;
+
 
 }
 
@@ -234,9 +237,12 @@ button:hover{
 
 .card h3{
 
-    font-size:25px;
+
+    font-size:24px;
+
 
     line-height:1.3;
+
 
 }
 
@@ -244,19 +250,12 @@ button:hover{
 
 .card p{
 
+
     color:#888;
+
 
     line-height:1.6;
 
-}
-
-
-
-.tags{
-
-    color:#666;
-
-    font-size:14px;
 
 }
 
@@ -264,15 +263,17 @@ button:hover{
 
 .price{
 
-    margin-top:25px;
+
+    margin-top:20px;
+
 
     font-size:22px;
 
+
     font-weight:bold;
 
+
 }
-
-
 
 
 
@@ -281,11 +282,15 @@ button:hover{
 
 footer{
 
+
     text-align:center;
 
-    padding:50px;
+
+    padding:40px;
+
 
     color:#555;
+
 
 }
 
@@ -300,9 +305,7 @@ footer{
 
 .logo{
 
-    font-size:50px;
-
-    letter-spacing:-3px;
+    font-size:55px;
 
 }
 
@@ -311,27 +314,12 @@ footer{
 
     font-size:12px;
 
-    letter-spacing:5px;
-
-}
-
-
-.subtitle{
-
-    font-size:22px;
-
-}
-
-
-.description{
-
-    font-size:16px;
+    letter-spacing:6px;
 
 }
 
 
 }
-
 
 
 </style>
@@ -352,34 +340,25 @@ footer{
 
 
 <h1 class="logo">
+
 PinkBoy
+
 </h1>
 
 
 <div class="archive">
+
 BADLILCOUP ARCHIVES
-</div>
-
-
-
-<div class="subtitle">
-Premium Guitar Loops & Sample Packs
-</div>
-
-
-
-<div class="description">
-
-Original guitar melodies, dark textures, and emotional samples crafted for producers.
 
 </div>
 
 
 
 <button>
-Browse Packs
-</button>
 
+ENTER
+
+</button>
 
 
 </div>
@@ -391,11 +370,14 @@ Browse Packs
 
 
 
+
 <section class="packs">
 
 
 <h2>
-Sample Archives
+
+Archives
+
 </h2>
 
 
@@ -404,8 +386,6 @@ Sample Archives
 
 
 
-
-
 <div class="card">
 
 
@@ -413,32 +393,21 @@ Sample Archives
 
 
 <h3>
+
 Archive Vol. 001
+
 <br>
+
 GarageBand Warlord
+
 </h3>
 
 
 <p>
 
-40 original guitar loops
-
-<br><br>
-
-Dark melodies • Ambient textures
-
-<br>
-
-Trap • Emo • Alternative
+Guitar Sample Collection
 
 </p>
-
-
-<div class="tags">
-
-BPM: 70-150 | Multiple Keys
-
-</div>
 
 
 <div class="price">
@@ -454,8 +423,6 @@ $19.99
 
 
 
-
-
 <div class="card">
 
 
@@ -463,66 +430,21 @@ $19.99
 
 
 <h3>
+
 Archive Vol. 002
+
 <br>
-Sad Guitar Sessions
-</h3>
 
-
-<p>
-
-Emotional guitar samples inspired by underground trap and alternative sounds.
-
-</p>
-
-
-<div class="tags">
-
-Melodic • Atmospheric • Guitar
-
-</div>
-
-
-<div class="price">
-
-$19.99
-
-</div>
-
-
-</div>
-
-
-
-
-
-
-
-<div class="card">
-
-
-<div class="cover"></div>
-
-
-<h3>
-Archive Vol. 003
-<br>
 Coming Soon
+
 </h3>
 
 
 <p>
 
-New PinkBoy & Badlilcoup collections currently in production.
+New collection
 
 </p>
-
-
-<div class="tags">
-
-New Sounds Loading...
-
-</div>
 
 
 <div class="price">
@@ -534,6 +456,42 @@ New Sounds Loading...
 
 </div>
 
+
+
+
+
+<div class="card">
+
+
+<div class="cover"></div>
+
+
+<h3>
+
+Archive Vol. 003
+
+<br>
+
+Coming Soon
+
+</h3>
+
+
+<p>
+
+New collection
+
+</p>
+
+
+<div class="price">
+
+---
+
+</div>
+
+
+</div>
 
 
 
@@ -552,6 +510,7 @@ New Sounds Loading...
 © 2026 PinkBoy & Badlilcoup Archives
 
 </footer>
+
 
 
 

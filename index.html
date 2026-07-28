@@ -1,10 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Ben Elisco | Guitar Loops</title>
+<title>PinkBoy & Badlilcoup Archives</title>
+
 
 <style>
 
@@ -12,178 +15,365 @@
     box-sizing:border-box;
 }
 
+
 body{
+
     margin:0;
     background:#050505;
     color:white;
     font-family:Arial, Helvetica, sans-serif;
+
 }
+
+
 
 /* HERO */
 
 .hero{
+
     min-height:100vh;
+
     display:flex;
     justify-content:center;
     align-items:center;
+
     text-align:center;
+
     padding:40px;
+
+
     background:
-    linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.9)),
-    url("https://images.unsplash.com/photo-1510915361894-db8b60106cb1");
+
+    linear-gradient(
+    rgba(0,0,0,.65),
+    rgba(0,0,0,.92)
+    ),
+
+    url("pinkboy-cover.jpg");
+
+
     background-size:cover;
+
     background-position:center;
+
+    background-attachment:fixed;
+
 }
 
 
-h1{
-    font-size:80px;
-    letter-spacing:-3px;
+
+.logo{
+
+    font-size:85px;
+
+    font-weight:900;
+
+    letter-spacing:-5px;
+
     margin:0;
+
 }
+
+
+
+.archive{
+
+    margin-top:15px;
+
+    font-size:18px;
+
+    letter-spacing:10px;
+
+    color:#aaa;
+
+}
+
 
 
 .subtitle{
-    color:#aaa;
-    font-size:24px;
-    margin-top:15px;
+
+    margin-top:45px;
+
+    font-size:28px;
+
 }
+
 
 
 .description{
-    max-width:600px;
+
+    max-width:650px;
+
     margin:25px auto;
-    color:#777;
+
+    color:#aaa;
+
     font-size:18px;
+
+    line-height:1.7;
+
 }
+
 
 
 button{
-    margin-top:25px;
-    padding:16px 45px;
+
+    margin-top:30px;
+
+    padding:17px 50px;
+
     border:none;
-    border-radius:30px;
+
+    border-radius:40px;
+
     background:white;
+
     color:black;
+
     font-size:18px;
+
     cursor:pointer;
+
     transition:.3s;
+
 }
+
 
 
 button:hover{
-    transform:scale(1.05);
+
+    transform:scale(1.06);
+
     background:#ddd;
+
 }
 
 
 
-/* PACK SECTION */
+
+/* SAMPLE ARCHIVE */
 
 
 .packs{
-    padding:70px 10%;
+
+    padding:90px 10%;
+
     text-align:center;
+
 }
 
 
+
 .packs h2{
-    font-size:40px;
+
+    font-size:45px;
+
+    margin-bottom:50px;
+
 }
 
 
 
 .container{
+
     display:flex;
+
     justify-content:center;
+
     flex-wrap:wrap;
-    gap:30px;
-    margin-top:40px;
+
+    gap:35px;
+
 }
 
 
 
 .card{
-    background:#111;
-    width:300px;
+
+    width:330px;
+
+    background:#101010;
+
     padding:25px;
-    border-radius:15px;
+
+    border-radius:18px;
+
     text-align:left;
+
     border:1px solid #222;
+
+    transition:.3s;
+
 }
 
 
+
+.card:hover{
+
+    transform:translateY(-8px);
+
+    border-color:#555;
+
+}
+
+
+
 .cover{
-    height:200px;
-    background:#222;
-    border-radius:10px;
-    margin-bottom:20px;
+
+    height:230px;
+
+    background:#1b1b1b;
+
+    border-radius:12px;
+
+    margin-bottom:25px;
+
 }
 
 
 
 .card h3{
-    font-size:24px;
+
+    font-size:25px;
+
+    line-height:1.3;
+
 }
+
 
 
 .card p{
+
     color:#888;
-    line-height:1.5;
+
+    line-height:1.6;
+
 }
+
+
+
+.tags{
+
+    color:#666;
+
+    font-size:14px;
+
+}
+
 
 
 .price{
-    margin-top:20px;
-    color:white;
-    font-size:20px;
+
+    margin-top:25px;
+
+    font-size:22px;
+
+    font-weight:bold;
+
 }
+
+
 
 
 
 /* FOOTER */
 
+
 footer{
+
     text-align:center;
-    padding:30px;
+
+    padding:50px;
+
     color:#555;
+
 }
 
 
-@media(max-width:600px){
 
-h1{
-font-size:50px;
+
+/* MOBILE */
+
+
+@media(max-width:700px){
+
+
+.logo{
+
+    font-size:50px;
+
+    letter-spacing:-3px;
+
 }
+
+
+.archive{
+
+    font-size:12px;
+
+    letter-spacing:5px;
+
+}
+
 
 .subtitle{
-font-size:20px;
-}
+
+    font-size:22px;
 
 }
+
+
+.description{
+
+    font-size:16px;
+
+}
+
+
+}
+
+
 
 </style>
 
+
 </head>
+
 
 
 <body>
 
 
+
 <section class="hero">
+
 
 <div>
 
-<h1>Ben Elisco</h1>
+
+<h1 class="logo">
+PinkBoy
+</h1>
+
+
+<div class="archive">
+BADLILCOUP ARCHIVES
+</div>
+
+
 
 <div class="subtitle">
-Guitar Loops & Sample Packs
+Premium Guitar Loops & Sample Packs
 </div>
+
 
 
 <div class="description">
-Original guitar melodies, emotional textures, and atmospheric loops built for producers.
+
+Original guitar melodies, dark textures, and emotional samples crafted for producers.
+
 </div>
+
 
 
 <button>
@@ -191,77 +381,159 @@ Browse Packs
 </button>
 
 
+
 </div>
 
+
 </section>
+
+
 
 
 
 <section class="packs">
 
-<h2>Sample Packs</h2>
+
+<h2>
+Sample Archives
+</h2>
+
 
 
 <div class="container">
 
 
+
+
+
 <div class="card">
+
 
 <div class="cover"></div>
 
-<h3>GarageBand Warlord Vol. 1</h3>
+
+<h3>
+Archive Vol. 001
+<br>
+GarageBand Warlord
+</h3>
+
 
 <p>
-40 emotional guitar loops<br>
+
+40 original guitar loops
+
+<br><br>
+
 Dark melodies • Ambient textures
+
+<br>
+
+Trap • Emo • Alternative
+
 </p>
 
 
+<div class="tags">
+
+BPM: 70-150 | Multiple Keys
+
+</div>
+
+
 <div class="price">
+
 $19.99
+
 </div>
 
 
 </div>
+
+
+
+
 
 
 
 <div class="card">
 
+
 <div class="cover"></div>
 
-<h3>Sad Guitar Archive</h3>
+
+<h3>
+Archive Vol. 002
+<br>
+Sad Guitar Sessions
+</h3>
+
 
 <p>
-Melodic guitar samples for trap, emo, and alternative production.
+
+Emotional guitar samples inspired by underground trap and alternative sounds.
+
 </p>
 
 
+<div class="tags">
+
+Melodic • Atmospheric • Guitar
+
+</div>
+
+
 <div class="price">
+
 $19.99
+
 </div>
 
 
 </div>
+
+
+
+
 
 
 
 <div class="card">
 
+
 <div class="cover"></div>
 
-<h3>Coming Soon</h3>
+
+<h3>
+Archive Vol. 003
+<br>
+Coming Soon
+</h3>
+
 
 <p>
-More original guitar packs in development.
+
+New PinkBoy & Badlilcoup collections currently in production.
+
 </p>
 
 
+<div class="tags">
+
+New Sounds Loading...
+
+</div>
+
+
 <div class="price">
----</div>
+
+---
+
+</div>
 
 
 </div>
+
 
 
 
@@ -272,10 +544,17 @@ More original guitar packs in development.
 
 
 
+
+
+
 <footer>
-© 2026 Ben Elisco
+
+© 2026 PinkBoy & Badlilcoup Archives
+
 </footer>
 
 
+
 </body>
+
 </html>

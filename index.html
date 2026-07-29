@@ -6,369 +6,232 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>PinkBoy & Badlilcoup Archives</title>
-
+<title>PinkBoy | BADLILCOUP</title>
 
 <style>
 
 *{
-    box-sizing:border-box;
+box-sizing:border-box;
 }
-
 
 html{
-    scroll-behavior:smooth;
+scroll-behavior:smooth;
 }
-
 
 body{
-
-    margin:0;
-    background:#050505;
-    color:white;
-    font-family:Arial, Helvetica, sans-serif;
-
+margin:0;
+background:#050505;
+color:white;
+font-family:Arial, Helvetica, sans-serif;
 }
-
 
 a{
-    text-decoration:none;
+text-decoration:none;
 }
 
 
-
-/* LANDING PAGE */
-
+/* HERO */
 
 .hero{
 
-    height:100vh;
+height:100vh;
 
-    display:flex;
-    justify-content:center;
-    align-items:center;
+display:flex;
+justify-content:center;
+align-items:center;
 
-    text-align:center;
+text-align:center;
 
+background:
+linear-gradient(
+rgba(0,0,0,.55),
+rgba(0,0,0,.9)
+),
+url("pinkboy-cover.jpg");
 
-    background:
-
-    linear-gradient(
-    rgba(0,0,0,.55),
-    rgba(0,0,0,.9)
-    ),
-
-    url("pinkboy-cover.jpg");
-
-
-    background-size:cover;
-
-    background-position:center;
-
-    background-attachment:fixed;
+background-size:cover;
+background-position:center;
 
 }
-
 
 
 .logo{
 
-    font-size:90px;
-
-    font-weight:900;
-
-    letter-spacing:-5px;
-
-    margin:0;
+font-size:90px;
+font-weight:900;
+letter-spacing:-5px;
 
 }
-
 
 
 .archive{
 
-    margin-top:20px;
+font-size:18px;
+letter-spacing:10px;
+color:#ccc;
 
-    font-size:18px;
+}
 
-    letter-spacing:12px;
 
-    color:#cccccc;
+.enter{
+
+margin-top:60px;
+
+padding:16px 55px;
+
+border:1px solid white;
+
+color:white;
+
+background:transparent;
+
+letter-spacing:5px;
+
+display:inline-block;
 
 }
 
 
 
+.enter:hover{
 
-button{
-
-
-    margin-top:60px;
-
-
-    padding:16px 55px;
-
-
-    background:transparent;
-
-
-    color:white;
-
-
-    border:1px solid white;
-
-
-    border-radius:0;
-
-
-    font-size:16px;
-
-
-    letter-spacing:5px;
-
-
-    cursor:pointer;
-
-
-    transition:.3s;
+background:white;
+color:black;
 
 }
 
 
 
-button:hover{
+/* SECTIONS */
 
-    background:white;
+section{
 
-    color:black;
+padding:90px 10%;
 
-}
-
-
-
-
-
-/* PRODUCT SECTION */
-
-
-.archives{
-
-    padding:90px 10%;
-
-    text-align:center;
+text-align:center;
 
 }
 
 
+h2{
 
-.archives h2{
-
-    font-size:45px;
-
-    margin-bottom:60px;
+font-size:45px;
 
 }
-
-
 
 
 
 .product{
 
-    max-width:850px;
+max-width:850px;
 
-    margin:auto;
+margin:auto;
 
-    background:#111;
+background:#111;
 
-    padding:40px;
+padding:40px;
 
-    border-radius:15px;
+border:1px solid #222;
 
-    border:1px solid #222;
+border-radius:15px;
 
-    text-align:left;
-
-}
-
-
-
-
-.cover{
-
-    height:350px;
-
-    background:#222;
-
-    border-radius:10px;
-
-    margin-bottom:30px;
+text-align:left;
 
 }
-
-
 
 
 
 .product h3{
 
-    font-size:40px;
+font-size:40px;
 
 }
-
 
 
 .product p{
 
-    color:#999;
+color:#aaa;
 
-    line-height:1.7;
-
-}
-
-
-
-
-
-.preview-title{
-
-    margin-top:45px;
-
-    font-size:25px;
-
-    color:white;
+line-height:1.7;
 
 }
-
 
 
 .loop{
 
-    margin-top:25px;
+margin-top:25px;
 
 }
-
 
 
 .loop p{
 
-    color:white;
+color:white;
 
-    margin-bottom:8px;
+margin-bottom:8px;
 
 }
-
 
 
 audio{
 
-    width:100%;
+width:100%;
 
 }
-
-
-
-
-
-.details{
-
-    margin-top:50px;
-
-    color:#aaa;
-
-    line-height:2;
-
-}
-
-
-
 
 
 .buy{
 
-    display:inline-block;
+display:inline-block;
 
+margin-top:45px;
 
-    margin-top:45px;
+padding:16px 50px;
 
+background:white;
 
-    padding:16px 50px;
+color:black;
 
-
-    background:white;
-
-
-    color:black;
-
-
-    letter-spacing:4px;
-
+letter-spacing:4px;
 
 }
-
 
 
 .buy:hover{
 
-    background:#ccc;
+background:#ccc;
 
 }
-
-
-
 
 
 footer{
 
-    text-align:center;
+padding:40px;
 
-    padding:40px;
+text-align:center;
 
-    color:#555;
+color:#555;
 
 }
-
-
-
 
 
 
 @media(max-width:700px){
 
-
 .logo{
 
-    font-size:55px;
+font-size:55px;
 
 }
 
 
 .archive{
 
-    font-size:12px;
-
-    letter-spacing:6px;
+font-size:12px;
 
 }
 
-
-.product{
-
-    padding:25px;
-
 }
-
-
-.product h3{
-
-    font-size:30px;
-
-}
-
-
-}
-
-
 
 </style>
 
@@ -376,51 +239,30 @@ footer{
 </head>
 
 
-
-
 <body>
-
-
 
 
 
 <section class="hero">
 
-
 <div>
 
-
 <h1 class="logo">
-
 PinkBoy
-
 </h1>
 
 
-
 <div class="archive">
-
-BADLILCOUP ARCHIVES
-
+BADLILCOUP
 </div>
 
 
-
-
-<a href="#archives">
-
-<button>
-
+<a class="enter" href="#samples">
 ENTER
-
-</button>
-
 </a>
 
 
-
 </div>
-
 
 </section>
 
@@ -428,71 +270,39 @@ ENTER
 
 
 
-
-
-
-<section class="archives" id="archives">
+<section id="samples">
 
 
 <h2>
-
 Sample Packs
-
 </h2>
-
-
-
 
 
 
 <div class="product">
 
 
-
-<div class="cover">
-
-</div>
-
-
-
-
-
 <h3>
-
 Warlord Pack 1
-
 </h3>
 
 
-
-
 <p>
-
-Original PinkBoy guitar sample collection.
-
+Original PinkBoy guitar loops. Royalty-free for use in your own music.
 </p>
 
 
 
-
-
-
-
-<div class="preview-title">
-
+<h2>
 Preview Loops
-
-</div>
-
-
-
+</h2>
 
 
 
 <div class="loop">
 <p>Loop 1</p>
 <audio controls>
-<source src="previews/loop1.mp3" type="audio/mpeg">
+<source src="previews/loop1.wav" type="audio/wav">
 </audio>
 </div>
 
@@ -500,7 +310,7 @@ Preview Loops
 <div class="loop">
 <p>Loop 2</p>
 <audio controls>
-<source src="previews/loop2.mp3" type="audio/mpeg">
+<source src="previews/loop2.wav" type="audio/wav">
 </audio>
 </div>
 
@@ -508,7 +318,7 @@ Preview Loops
 <div class="loop">
 <p>Loop 3</p>
 <audio controls>
-<source src="previews/loop3.mp3" type="audio/mpeg">
+<source src="previews/loop3.wav" type="audio/wav">
 </audio>
 </div>
 
@@ -516,7 +326,7 @@ Preview Loops
 <div class="loop">
 <p>Loop 4</p>
 <audio controls>
-<source src="previews/loop4.mp3" type="audio/mpeg">
+<source src="previews/loop4.wav" type="audio/wav">
 </audio>
 </div>
 
@@ -524,7 +334,7 @@ Preview Loops
 <div class="loop">
 <p>Loop 5</p>
 <audio controls>
-<source src="previews/loop5.mp3" type="audio/mpeg">
+<source src="previews/loop5.wav" type="audio/wav">
 </audio>
 </div>
 
@@ -532,7 +342,7 @@ Preview Loops
 <div class="loop">
 <p>Loop 6</p>
 <audio controls>
-<source src="previews/loop6.mp3" type="audio/mpeg">
+<source src="previews/loop6.wav" type="audio/wav">
 </audio>
 </div>
 
@@ -540,7 +350,7 @@ Preview Loops
 <div class="loop">
 <p>Loop 7</p>
 <audio controls>
-<source src="previews/loop7.mp3" type="audio/mpeg">
+<source src="previews/loop7.wav" type="audio/wav">
 </audio>
 </div>
 
@@ -548,7 +358,7 @@ Preview Loops
 <div class="loop">
 <p>Loop 8</p>
 <audio controls>
-<source src="previews/loop8.mp3" type="audio/mpeg">
+<source src="previews/loop8.wav" type="audio/wav">
 </audio>
 </div>
 
@@ -556,7 +366,7 @@ Preview Loops
 <div class="loop">
 <p>Loop 9</p>
 <audio controls>
-<source src="previews/loop9.mp3" type="audio/mpeg">
+<source src="previews/loop9.wav" type="audio/wav">
 </audio>
 </div>
 
@@ -564,7 +374,7 @@ Preview Loops
 <div class="loop">
 <p>Loop 10</p>
 <audio controls>
-<source src="previews/loop10.mp3" type="audio/mpeg">
+<source src="previews/loop10.wav" type="audio/wav">
 </audio>
 </div>
 
@@ -572,7 +382,7 @@ Preview Loops
 <div class="loop">
 <p>Loop 11</p>
 <audio controls>
-<source src="previews/loop11.mp3" type="audio/mpeg">
+<source src="previews/loop11.wav" type="audio/wav">
 </audio>
 </div>
 
@@ -580,7 +390,7 @@ Preview Loops
 <div class="loop">
 <p>Loop 12</p>
 <audio controls>
-<source src="previews/loop12.mp3" type="audio/mpeg">
+<source src="previews/loop12.wav" type="audio/wav">
 </audio>
 </div>
 
@@ -588,7 +398,7 @@ Preview Loops
 <div class="loop">
 <p>Loop 13</p>
 <audio controls>
-<source src="previews/loop13.mp3" type="audio/mpeg">
+<source src="previews/loop13.wav" type="audio/wav">
 </audio>
 </div>
 
@@ -596,7 +406,7 @@ Preview Loops
 <div class="loop">
 <p>Loop 14</p>
 <audio controls>
-<source src="previews/loop14.mp3" type="audio/mpeg">
+<source src="previews/loop14.wav" type="audio/wav">
 </audio>
 </div>
 
@@ -604,7 +414,7 @@ Preview Loops
 <div class="loop">
 <p>Loop 15</p>
 <audio controls>
-<source src="previews/loop15.mp3" type="audio/mpeg">
+<source src="previews/loop15.wav" type="audio/wav">
 </audio>
 </div>
 
@@ -612,7 +422,7 @@ Preview Loops
 <div class="loop">
 <p>Loop 16</p>
 <audio controls>
-<source src="previews/loop16.mp3" type="audio/mpeg">
+<source src="previews/loop16.wav" type="audio/wav">
 </audio>
 </div>
 
@@ -620,7 +430,7 @@ Preview Loops
 <div class="loop">
 <p>Loop 17</p>
 <audio controls>
-<source src="previews/loop17.mp3" type="audio/mpeg">
+<source src="previews/loop17.wav" type="audio/wav">
 </audio>
 </div>
 
@@ -628,7 +438,7 @@ Preview Loops
 <div class="loop">
 <p>Loop 18</p>
 <audio controls>
-<source src="previews/loop18.mp3" type="audio/mpeg">
+<source src="previews/loop18.wav" type="audio/wav">
 </audio>
 </div>
 
@@ -636,7 +446,7 @@ Preview Loops
 <div class="loop">
 <p>Loop 19</p>
 <audio controls>
-<source src="previews/loop19.mp3" type="audio/mpeg">
+<source src="previews/loop19.wav" type="audio/wav">
 </audio>
 </div>
 
@@ -644,26 +454,23 @@ Preview Loops
 <div class="loop">
 <p>Loop 20</p>
 <audio controls>
-<source src="previews/loop20.mp3" type="audio/mpeg">
+<source src="previews/loop20.wav" type="audio/wav">
 </audio>
 </div>
 
 
 
-
-
-
-<div class="details">
+<p>
 
 Includes:
 
 <br>
 
-✓ 10 Guitar Loops
+✓ Guitar Loops
 
 <br>
 
-✓ 10 MIDI Loops
+✓ MIDI Files
 
 <br>
 
@@ -677,15 +484,11 @@ Includes:
 
 ✓ Commercial License
 
-</div>
+</p>
 
 
 
-
-
-
-
-<a class="buy" href="#">
+<a class="buy" href="https://pinkboyxbadlilcoup.gumroad.com/l/iatgld" target="_blank">
 
 BUY NOW
 
@@ -693,12 +496,7 @@ BUY NOW
 
 
 
-
-
 </div>
-
-
-
 
 
 </section>
@@ -706,16 +504,11 @@ BUY NOW
 
 
 
-
-
-
 <footer>
 
-© 2026 PinkBoy & Badlilcoup Archives
+© 2026 BADLILCOUP aka PinkBoy
 
 </footer>
-
-
 
 
 
